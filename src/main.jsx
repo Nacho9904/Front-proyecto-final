@@ -3,14 +3,15 @@ import ReactDOM from 'react-dom/client';
 import App from './App.jsx';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './index.css';
-import HomePage from './Pages/SobreNosotros.jsx';
+import { SobreNosotros1 } from './Pages/SobreNosotros.jsx';
+
+
 
 
 const router = createBrowserRouter([
   {
     path: '/',
-    element: <HomePage />,
+    element: <SobreNosotros1/>,
   },
 ]);
 
